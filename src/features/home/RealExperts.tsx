@@ -12,8 +12,11 @@ import "animate.css";
 import useScrollAnimation from "@/hooks/useScrollAnimation";
 import AnimatedClients from "./AnimatedClients";
 import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
+import { SkeletonLoader } from "@/components/reusable/SkeletonLoader";
 
 const RealExperts = () => {
+  const [loading, setLoading] = useState(true);
   const navigate = useRouter();
   const { ref, inView } = useScrollAnimation();
   const text = useTypewriter(
@@ -22,6 +25,13 @@ const RealExperts = () => {
     50,
     1500
   );
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 1000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) return <SkeletonLoader />;
 
   return (
     <section
