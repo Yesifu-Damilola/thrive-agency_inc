@@ -42,7 +42,7 @@ const RealExperts = () => {
           <div className="lg:w-[596px] w-full space-y-5 lg:space-y-[28px]">
             <div className="w-full space-y-5 lg:space-y-8">
               <h1
-                className={`font-open-sans font-bold text-[40px] lg:text-[80px] leading-[120%] text-dark-200 ${
+                className={`font-open-sans font-bold text-[45px] lg:text-[80px] leading-[120%] text-dark-200 ${
                   inView
                     ? "animate__animated animate__fadeInTopLeft"
                     : "opacity-0"
@@ -121,7 +121,7 @@ const RealExperts = () => {
             <Image
               src="/images/Coverimage.png"
               alt="Coverimage"
-              className={`${
+              className={`lg:w-[524px] lg:h-[609px] w-[524px] h-[500px] ${
                 inView ? "animate__animated animate__zoomIn" : "opacity-0"
               }`}
               width={524}
