@@ -9,6 +9,7 @@ import useScrollAnimation from "../../hooks/useScrollAnimation";
 import "animate.css";
 import { Fade } from "react-awesome-reveal";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 // Define tab types for type safety
 type TabType =
@@ -107,12 +108,12 @@ export const ShopifySales: React.FC = () => {
         <p className="font-normal text-base md:text-lg lg:text-xl leading-[160%] text-white line-clamp-3">
           {sample.description}
         </p>
-        <a
+        <Link
           href={sample.linkUrl}
           className="font-bold text-base md:text-lg leading-[99%] text-success-500 inline-block"
         >
           {sample.linkText}
-        </a>
+        </Link>
       </div>
     );
   };

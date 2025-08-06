@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import type React from "react";
 import { useEffect, useRef } from "react";
 
@@ -37,10 +38,12 @@ export const LocalVideo: React.FC<LocalVideoProps> = ({
 
       {/* Fallback image in case video still doesn't load */}
       <div className="absolute inset-0 flex items-center justify-center bg-gray-100 opacity-0 pointer-events-none">
-        <img
+        <Image
           src="/placeholder.svg?height=400&width=800&text=Contact+Us+Video"
           alt="Contact video "
           className="w-full h-auto"
+          width={800}
+          height={400}
         />
       </div>
     </div>

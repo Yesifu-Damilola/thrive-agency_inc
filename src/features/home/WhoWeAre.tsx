@@ -31,13 +31,13 @@ const WhoWeAre = () => {
 
           {/* Content Container */}
           <div
-            className={`w-full lg:w-[596px] space-y-6 lg:space-y-10  ${
+            className={`w-full lg:w-[596px] space-y-6 lg:space-y-5  ${
               inView ? "animate__animated animate__fadeInTopRight" : "opacity-0"
             }`}
           >
-            <div className="w-full space-y-6 md:space-y-8">
+            <div className="w-full space-y-6 md:space-y-4">
               <div className="w-[38px] h-[2px] rounded-[50px] bg-success-500 my-2 ml-4 sm:ml-10"></div>
-              <div className="w-full max-w-[474px] space-y-4 md:space-y-5">
+              <div className="w-full max-w-[474px] space-y-4 md:space-y-3">
                 <h3
                   className={`font-open-sans font-bold text-sm sm:text-base leading-[120%] bg-gradient-to-r from-success-300 to-success-400 text-transparent bg-clip-text ${
                     inView ? "animate-bounce-less" : "opacity-0"
@@ -50,8 +50,10 @@ const WhoWeAre = () => {
                 </h2>
               </div>
               <p className="w-full max-w-[505px] font-open-sans font-normal text-base md:text-xl leading-[160%] text-dark-200">
-                Our services is the best you will ever find if you truly want
-                sales, growth, and success
+                You bring the vision. We bring the skills to execute it. Whether
+                you’re launching something new or leveling up what already
+                exists, Thrive Agency is your one-stop powerhouse for building
+                brands that break through.
               </p>
             </div>
 

@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 import type React from "react";
 import { useEffect, useRef } from "react";
@@ -30,7 +31,6 @@ export const LocalVideo: React.FC<LocalVideoProps> = ({
         autoPlay
         muted
         loop
-        // poster={poster || "/placeholder.svg?height=400&width=800"}
       >
         <source src="/videos/thrive_agencyvideo.mp4" type="video/mp4" />
       </video>

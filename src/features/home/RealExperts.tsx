@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
-// import Coverimage from "/images/Coverimage.png";
 import { useTypewriter } from "@/hooks/useTypewriter";
 import Button from "@/components/ui/button";
 import { socialmedia } from "@/components/constant/TrustedByItems";
@@ -40,7 +39,7 @@ const RealExperts = () => {
     >
       <div className="wrapper space-y-10 py-5 ">
         <div className="lg:w-[1164px] w-full pt-28 lg:pt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-[44px] items-center justify-center mx-auto lg:h-[912px]">
-          <div className="lg:w-[596px] w-full space-y-5 lg:space-y-[32px]">
+          <div className="lg:w-[596px] w-full space-y-5 lg:space-y-[28px]">
             <div className="w-full space-y-5 lg:space-y-8">
               <h1
                 className={`font-open-sans font-bold text-[40px] lg:text-[80px] leading-[120%] text-dark-200 ${

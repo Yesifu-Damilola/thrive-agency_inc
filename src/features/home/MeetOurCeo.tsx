@@ -2,8 +2,6 @@
 
 import Image from "next/image";
 import { socialmedia } from "@/components/constant/TrustedByItems";
-// import agencylogo from "/images/agencylogo.png";
-// import ceoimage from "/images/ceoimage.png";
 import useScrollAnimation from "@/hooks/useScrollAnimation";
 import "animate.css";
 
@@ -81,9 +79,9 @@ const MeetOurCeo = () => {
             <Image
               src="/images/agencylogo.png"
               alt="agency logo"
-              className="absolute bottom-0 "
               width={251.13}
               height={294}
+              className="absolute bottom-0 lg:w-[160px] lg:h-[80px] w-[160px] h-[90px] lg:left-20 left-0 "
             />
           </div>
         </div>

@@ -10,7 +10,7 @@ import { AdvertSubSection } from "../home/AdvertSubSection";
 
 export const Contact = () => {
   // Gmail address to receive messages - replace with your actual Gmail
-  const GMAIL_ADDRESS = "ksamuelojo420@gmail.com"; // ← REPLACE THIS WITH YOUR ACTUAL GMAIL
+  const GMAIL_ADDRESS = "thriveagency02@gmail.com...."; // ← REPLACE THIS WITH YOUR ACTUAL GMAIL
 
   // Use the custom hook for form handling
   const {
@@ -34,7 +34,7 @@ export const Contact = () => {
                 Contact Us
               </h1>
               <p className="text-gray-600">
-                We&aposd love to hear from you. Fill out the form below.
+                We&apos;d love to hear from you. Fill out the form below.
               </p>
             </div>
 

@@ -22,6 +22,7 @@ const OtherServices = ({
 }: SlideProps) => {
   const { ref, inView } = useScrollAnimation();
   const [currentIndex, setCurrentIndex] = useState(0);
+  // Calculate how many items can be shown at once (rough estimate)
   const itemsPerPage = 3;
   const maxIndex = Math.max(0, OtherServiceItem.length - itemsPerPage);
 
@@ -42,7 +43,7 @@ const OtherServices = ({
 
   return (
     <section ref={ref} className="w-full bg-success-700 relative">
-      <div className="wrapper py-[100px] space-y-[10px] relative z-10">
+      <div className="wrapper pt-[100px] space-y-[10px] relative z-10">
         <div className="w-full max-w-[1164px] space-y-10 flex flex-col items-center justify-center mx-auto">
           <div className="w-full space-y-4 ">
             <div className="space-y-1">

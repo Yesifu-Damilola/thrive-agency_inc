@@ -18,8 +18,8 @@ const OurServices = () => {
 
   const services: ServiceItem[] = [
     { img: "/images/content.png", title: "Content Creation" },
-    { img: "/images/advertising.png", title: "Paid Advertising" },
-    { img: "/images/website.png", title: "Website Design" },
+    { img: "/images/advertising.png", title: "Shopify Store Design" },
+    { img: "/images/website.png", title: "Social Media Management" },
   ];
 
   return (

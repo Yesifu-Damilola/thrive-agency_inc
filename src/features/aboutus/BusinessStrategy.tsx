@@ -5,7 +5,7 @@ import InfiniteScrollBanner from "../../components/reusable/Advert";
 export const BusinessStrategy = () => {
   return (
     <InfiniteScrollBanner
-      mainBackgroundImage="/images/businessstrategybg.png"
+      mainBackgroundImage="/images/paidadvert.svg"
       overlayBackgroundImage="/images/advertbg.png"
       items={[
         { text: "Social Media Strategy", showCircleAfter: true },

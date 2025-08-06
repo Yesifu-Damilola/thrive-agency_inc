@@ -7,7 +7,7 @@ interface FAQItem {
 export const FaqItems: FAQItem[] = [
   {
     id: 1,
-    question: "What is Digital Marketing?",
+    question: "Social Media Management?",
     answer:
       "Our services is the best you will ever find if you truly want sales, growth, and success",
   },

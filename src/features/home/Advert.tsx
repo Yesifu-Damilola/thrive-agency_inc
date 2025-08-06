@@ -11,7 +11,7 @@ const Advert = () => {
   return (
     <section>
       <InfiniteScrollBanner
-        mainBackgroundImage="/images/advertbackground.png"
+        mainBackgroundImage="/images/paidadvert.svg"
         overlayBackgroundImage="/images/advertbg.png"
         items={items}
       />

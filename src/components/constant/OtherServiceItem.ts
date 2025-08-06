@@ -14,7 +14,7 @@ export const OtherServiceItem: ServiceItem[] = [
     title: "Social Media Management",
     price: "$250",
     description:
-      "Take your social media presence to the next level with our expert management services. We'll handle content creation, scheduling, engagement, and performance tracking across all major platforms. Our team will develop a tailored strategy to grow your audience, increase brand awareness, and drive meaningful interactions with your target customers.",
+      "📲 Social Media Management\nWe turn scrolls into clicks with platform-savvy strategies tailored to your brand. From content calendars to hashtag research, visual curation to audience engagement—we manage your social presence like a pro (because we are).",
     featured: false,
   },
   {
@@ -23,7 +23,7 @@ export const OtherServiceItem: ServiceItem[] = [
     title: "Shopify Store Design",
     price: "$350",
     description:
-      "Transform your e-commerce vision into a stunning Shopify store with our professional design services. We'll create a visually appealing, user-friendly storefront that converts visitors into customers. Our designs are mobile-optimized, brand-aligned, and focused on creating seamless shopping experiences that boost your sales and customer satisfaction.",
+      " 🛒 Shopify Store Design & Optimization We build Shopify stores that do more than look pretty—they convert. From custom themes to seamless product pages and optimized checkout flows, we design every pixel with your customer's journey (and your revenue) in mind.",
     featured: true,
   },
   {
@@ -31,8 +31,8 @@ export const OtherServiceItem: ServiceItem[] = [
     image: "/images/googlemerchant.png",
     title: "SEO Specialist",
     price: "$300",
-    description:
-      "Dominate search engine rankings with our expert SEO services. Our specialists will optimize your website's technical structure, content, and backlink profile to improve visibility for your target keywords. We implement white-hat strategies that deliver sustainable growth in organic traffic and higher conversion rates for your business.",
+    description: `📈 SEO (Search Engine Optimization)
+       Ranking on Google isn’t magic—it’s method. We do the technical fixes, on-page optimization, and keyword targeting that make your site findable, clickable, and profitable. Organic traffic? Delivered.`,
     featured: false,
   },
   {
@@ -40,8 +40,8 @@ export const OtherServiceItem: ServiceItem[] = [
     image: "/images/onpageandoffpageseo.png",
     title: "Content Writing",
     price: "$400",
-    description:
-      "Elevate your brand with compelling, SEO-optimized content that resonates with your audience. Our professional writers craft engaging website copy, blog posts, product descriptions, and marketing materials that inform, persuade, and convert. We tailor our writing to your brand voice while incorporating strategic keywords for maximum impact.",
+    description: `✍️ Content Writing & Copywriting
+        We don't write fluff. We write content that builds trust, earns clicks, and drives action. From product descriptions and landing pages to blogs and email copy, we bring your brand's voice to life and your readers to the checkout.`,
     featured: false,
   },
   {
@@ -49,8 +49,8 @@ export const OtherServiceItem: ServiceItem[] = [
     image: "/images/facebookandinstagram.png",
     title: "Graphic Design",
     price: "$275",
-    description:
-      "Make a lasting visual impression with our professional graphic design services. From logos and branding materials to social media graphics and marketing collateral, we create eye-catching designs that communicate your brand's identity and values. Our designs are not just beautiful - they're strategically crafted to support your business goals.",
+    description: `🎨 Graphic Design & Branding
+        Design that speaks louder than words. Logos, packaging, ad creatives, banners, social templates—you name it. We make sure your visuals aren’t just nice—they’re unforgettable and on-brand, every time.`,
     featured: true,
   },
   {
@@ -59,7 +59,7 @@ export const OtherServiceItem: ServiceItem[] = [
     title: "WordPress Web Design",
     price: "$400",
     description:
-      "Get a powerful, custom WordPress website designed for performance and results. We build responsive, SEO-friendly sites with intuitive navigation and compelling layouts that showcase your business effectively. Whether you need a simple blog or a complex e-commerce site, we'll create a solution that meets your specific needs and goals.",
+      "🌐 WordPress Design & Development\nNeed a sleek, high-performance site that’s easy to manage? We craft beautiful, fast, and SEO-friendly WordPress websites with clear structure, strong branding, and zero bloat. Perfect for blogs, service sites, and hybrid eComm.",
     featured: false,
   },
   {

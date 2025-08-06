@@ -14,6 +14,8 @@ import Button from "../ui/button";
 import useScrollAnimation from "@/hooks/useScrollAnimation";
 import "animate.css";
 import { useRouter } from "next/navigation";
+import { Tiktok } from "@/assets/icons/Tiktok";
+import Link from "next/link";
 
 const Footer = () => {
   const router = useRouter();
@@ -62,42 +64,72 @@ const Footer = () => {
             </div>
             <div className="lg:w-[559px] w-full rounded-[20px] border-2 p-4 space-y-4 border-light-400">
               <div className="lg:w-[460px] w-full block lg:flex lg:flex-wrap lg:gap-5 gap-3 space-y-5">
-                <p className="py-2 px-3 font-normal text-base leading-[99%] text-white">
+                <Link
+                  href="/"
+                  className="py-2 px-3 font-normal text-base leading-[99%] text-white"
+                >
                   Home
-                </p>
-                <p className="py-2 px-3 font-normal text-base leading-[99%] text-white">
+                </Link>
+                <Link
+                  href="/services"
+                  className="py-2 px-3 font-normal text-base leading-[99%] text-white"
+                >
                   Our Services
-                </p>
-                <p className="py-2 px-3 font-normal text-base leading-[99%] text-white">
+                </Link>
+                <Link
+                  href="/about"
+                  className="py-2 px-3 font-normal text-base leading-[99%] text-white"
+                >
                   About Us
-                </p>
-                <p className="py-2 px-3 font-normal text-base leading-[99%] text-white">
+                </Link>
+                <Link
+                  href="/testimonials"
+                  className="py-2 px-3 font-normal text-base leading-[99%] text-white"
+                >
                   Testimonials
-                </p>
+                </Link>
               </div>
               <div
                 className={`w-full px-2 flex flex-wrap gap-4 ${
                   inView ? "animate-bounce-less" : "opacity-0"
                 }`}
               >
-                <div className="border rounded-full border-success-500">
+                <Link
+                  href="https://www.instagram.com/_thriveagency?igsh=Y3hsMW10eGFwd3pq"
+                  className="border rounded-full border-success-500"
+                >
                   <Instagram className="w-10 h-10  p-2 text-success-500" />
-                </div>
-                <div className="border rounded-full border-success-500">
+                </Link>
+                <Link
+                  href="https://www.facebook.com/thriveagency1"
+                  className="border rounded-full border-success-500"
+                >
                   <Facebook className="w-10 h-10  p-2 text-success-500" />
-                </div>
-                <div className="border rounded-full border-success-500">
+                </Link>
+                <Link
+                  href="#"
+                  className="border rounded-full border-success-500"
+                >
                   <Linkedin className="w-10 h-10  p-2 text-success-500" />
-                </div>
-                <div className="border rounded-full border-success-500">
+                </Link>
+                <Link
+                  href="#"
+                  className="border rounded-full border-success-500"
+                >
                   <Twitter className="w-10 h-10  p-2 text-success-500" />
-                </div>
-                <div className="hidden md:block border rounded-full border-success-500">
-                  <Twitter className="w-10 h-10  p-2 text-success-500" />
-                </div>
-                <div className="hidden md:block border rounded-full border-success-500">
+                </Link>
+                <Link
+                  href="https://www.tiktok.com/@thriveagency1?_t=ZT-8xfLnKiW685&_r=1"
+                  className="border rounded-full border-success-500"
+                >
+                  <Tiktok className="w-10 h-10 text-success-500" />
+                </Link>
+                <Link
+                  href="#"
+                  className="hidden md:block border rounded-full border-success-500"
+                >
                   <Youtube className="w-10 h-10  p-2 text-success-500" />
-                </div>
+                </Link>
               </div>
               <div className="lg:w-[502] w-full py-2 px-3 space-y-[10px]">
                 <h3 className="font-open-sans font-bold text-base leading-[140%] text-white">

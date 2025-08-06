@@ -64,25 +64,25 @@ export const TakeYourBusiness = () => {
 
               <Fade direction={"up"}>
                 <p className="font-normal text-base md:text-xl leading-[160%] text-dark-200">
-                  With a dedicated, talented team of 6 experts, Thrive Agency
-                  stands out as a trusted partner for businesses seeking to
-                  amplify their online presence, boost engagement, and drive
-                  measurable growth. Over the past 4 years, we have proudly
-                  partnered with a diverse range of brands, delivering
-                  innovative marketing solutions that cater to unique business
-                  needs.
+                  About Us At Thrive Agency, we&#39;re eCommerce growth experts
+                  who specialize in turning online stores into unstoppable sales
+                  machines. From pixel-perfect Shopify design to CRO strategies
+                  that actually convert, we bring the skills, the tools, and the
+                  experience to help your brand thrive in a fiercely competitive
+                  digital market. We partner with eCommerce founders, DTC
+                  brands, and growth-stage businesses that are serious about
+                  scaling.
                 </p>
               </Fade>
               <Fade direction={"down"}>
                 <p className="font-normal text-base md:text-xl leading-[160%] text-dark-200">
-                  We prioritize building meaningful, long-lasting relationships
-                  with our clients. We have successfully worked with over 150
-                  clients, including small businesses, startups, and
-                  well-established enterprises, helping them scale their online
-                  presence and achieve impressive results. Our commitment to
-                  excellence has earned us a loyal customer base with 120+ happy
-                  clients who continue to benefit from our tailored strategies
-                  and personalized approach.
+                  Whether you&#39;re stuck at 5K/month or pushing past 100K+,
+                  we&#39;ll meet you where you are-and push you further. We
+                  don&#39;t sell shiny websites or trendy hacks. We build
+                  eCommerce ecosystems designed to convert, retain, and
+                  grow-consistently. We prioritize building meaningful,
+                  long-lasting relationships with our clients. 
+                  impressive results.
                 </p>
               </Fade>
               <div>

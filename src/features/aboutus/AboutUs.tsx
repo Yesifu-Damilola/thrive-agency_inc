@@ -13,7 +13,7 @@ const AboutUs = () => {
   return (
     <>
       <div className="w-full h-[380px] lg:h-[528px] bg-[url('/images/aboutbg.png')] bg-cover lg:bg-cover bg-no-repeat bg-center relative">
-        <div className="absolute inset-0 flex items-center justify-center bg-black/70 ">
+        <div className="absolute inset-0 flex items-center justify-center  ">
           <h1 className="font-bold text-4xl lg:text-[80px] leading-[120%] text-white text-center">
             ABOUT US
           </h1>
