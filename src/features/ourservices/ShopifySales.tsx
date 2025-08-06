@@ -169,7 +169,7 @@ export const ShopifySales: React.FC = () => {
                   console.log("Navigating...");
                   navigate.push("/socialmediamarketingstrategy");
                 }}
-                className="lg:w-full sm:w-auto w-[193.51px] rounded-lg p-4 font-bold lg:text-base text-sm leading-[99%] text-dark-100 flex gap-[6.51px]"
+                className="lg:w-full sm:w-auto w-[193.51px] rounded-lg p-4 font-bold lg:text-base text-sm leading-[99%] text-dark-100 flex gap-[6.51px] cursor-pointer"
               >
                 {currentContent.buttonText}
                 <ArrowRight className="w-5 h-5 ml-2" />
@@ -206,7 +206,7 @@ export const ShopifySales: React.FC = () => {
                 </p>
               </div>
               <Button
-                className={`${
+                className={` cursor-pointer ${
                   inView ? "animate__animated animate__zoomIn" : "opacity-0"
                 }`}
                 onClick={() => {

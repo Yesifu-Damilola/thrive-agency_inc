@@ -71,13 +71,13 @@ const Footer = () => {
                   Home
                 </Link>
                 <Link
-                  href="/services"
+                  href="/ourservices"
                   className="py-2 px-3 font-normal text-base leading-[99%] text-white"
                 >
                   Our Services
                 </Link>
                 <Link
-                  href="/about"
+                  href="/aboutus"
                   className="py-2 px-3 font-normal text-base leading-[99%] text-white"
                 >
                   About Us

@@ -66,7 +66,7 @@ export const OtherServiceCard = ({
 
       <div className="w-[158px] rounded-lg py-3 px-7 bg-success-500 flex gap-[10px]">
         <button
-          className="font-open-sans font-bold text-lg leading-[99%] text-dark-100"
+          className="font-open-sans font-bold text-lg leading-[99%] text-dark-100 cursor-pointer"
           onClick={handleAddToCart}
         >
           Add to Cart

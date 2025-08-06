@@ -135,7 +135,7 @@ export const SocialMediaMarketing = () => {
                   {["basic", "standard", "custom"].map((pkg) => (
                     <Button
                       key={pkg}
-                      className={`flex-1 min-w-0 mx-1 py-4 rounded-xl font-bold text-sm sm:text-base leading-[99%] ${
+                      className={`flex-1 min-w-0 mx-1 py-4 rounded-xl font-bold text-sm sm:text-base leading-[99%] cursor-pointer ${
                         selectedPackage === pkg ? "" : "bg-transparent"
                       }`}
                       onClick={() => handlePackageChange(pkg)}
@@ -189,7 +189,7 @@ export const SocialMediaMarketing = () => {
                 <div className="pt-1.5">
                   <Fade direction={"bottom-right"}>
                     <Button
-                      className="!w-full rounded-lg py-4 lg:py-5 px-8 font-bold text-base md:text-lg leading-[99%] text-dark-100"
+                      className="!w-full rounded-lg py-4 lg:py-5 px-8 font-bold text-base md:text-lg leading-[99%] text-dark-100 cursor-pointer"
                       onClick={handleAddToCart}
                       aria-label={`Add to Cart for ${displayPrice.toLocaleString()}`}
                     >

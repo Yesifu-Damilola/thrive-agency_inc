@@ -5,8 +5,10 @@ import { ArrowRight } from "lucide-react";
 import Button from "../../components/ui/button";
 import { socialmedia } from "../../components/constant/TrustedByItems";
 import { Fade } from "react-awesome-reveal";
+import { useRouter } from "next/navigation";
 
 export const TakeYourBusiness = () => {
+  const navigate = useRouter();
   return (
     <section className="w-full bg-[url('/images/genbackground.png')] bg-cover bg-no-repeat relative py-8 md:py-16 space-y-2.5 px-4 sm:px-6">
       <div className="w-full max-w-[1164px] rounded-[20px] md:rounded-[40px] p-5 md:p-[40px] space-y-2.5 bg-success-700 items-center justify-center mx-auto overflow-hidden">
@@ -81,15 +83,16 @@ export const TakeYourBusiness = () => {
                   don&#39;t sell shiny websites or trendy hacks. We build
                   eCommerce ecosystems designed to convert, retain, and
                   grow-consistently. We prioritize building meaningful,
-                  long-lasting relationships with our clients. 
-                  impressive results.
+                  long-lasting relationships with our clients. impressive
+                  results.
                 </p>
               </Fade>
               <div>
                 <Fade direction={"up"}>
                   <Button
                     width=""
-                    className="w-[188px] lg:w-[282px] rounded-lg p-4 flex gap-[6.51px] lg:rounded-xl lg:py-5 lg:px-8 lg:gap-3"
+                    onClick={() => navigate.push("/ourservices")}
+                    className="w-[188px] lg:w-[282px] rounded-lg p-4 flex gap-[6.51px] lg:rounded-xl lg:py-5 lg:px-8 lg:gap-3 cursor-pointer"
                   >
                     All Services
                     <ArrowRight />

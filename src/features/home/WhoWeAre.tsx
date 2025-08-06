@@ -81,7 +81,7 @@ const WhoWeAre = () => {
             {/* Buttons */}
             <div className="flex gap-3">
               <Button
-                className="text-base p-4 rounded-lg flex gap-[6.51px] sm:w-full"
+                className="text-base p-4 rounded-lg flex gap-[6.51px] sm:w-full cursor-pointer"
                 onClick={() => navigate.push("/aboutus")}
               >
                 About us
@@ -97,7 +97,7 @@ const WhoWeAre = () => {
                 <Button
                   width=""
                   color=""
-                  className="w-[216px] text-base p-4 rounded-lg border-[0.54px] text-success-100 border-success-100"
+                  className="w-[216px] text-base p-4 rounded-lg border-[0.54px] text-success-100 border-success-100 cursor-pointer"
                 >
                   Chat Now
                 </Button>

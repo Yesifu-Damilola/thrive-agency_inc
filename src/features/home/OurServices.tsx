@@ -164,7 +164,7 @@ const OurServices = () => {
             {/* Button */}
             <div className="flex items-center justify-center">
               <Button
-                className="p-4 rounded-lg"
+                className="p-4 rounded-lg cursor-pointer"
                 onClick={() => navigate.push("/ourservices")}
               >
                 All Services

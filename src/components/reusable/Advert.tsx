@@ -49,7 +49,7 @@ const InfiniteScrollBanner: React.FC<InfiniteScrollBannerProps> = ({
       }}
     >
       <div
-        className="absolute bottom-0 bg-no-repeat bg-center bg-cover h-[100px] lg:h-[148px]"
+        className="absolute bottom-0 bg-no-repeat bg-center bg-cover h-[100px] lg:h-[148px] "
         style={{
           width: "100%",
           height: overlayHeight,

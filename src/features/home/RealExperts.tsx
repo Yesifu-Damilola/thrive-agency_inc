@@ -10,9 +10,10 @@ import AnimatedStats from "./AnimatedStats";
 import "animate.css";
 import useScrollAnimation from "@/hooks/useScrollAnimation";
 import AnimatedClients from "./AnimatedClients";
-import { useRouter } from "next/navigation";
+
 import { useEffect, useState } from "react";
 import { SkeletonLoader } from "@/components/reusable/SkeletonLoader";
+import { useRouter } from "next/navigation";
 
 const RealExperts = () => {
   const [loading, setLoading] = useState(true);
@@ -66,7 +67,7 @@ const RealExperts = () => {
 
             <div className="md:flex gap-3 hidden">
               <Button
-                className="text-base p-4 rounded-lg flex gap-[6.51px]"
+                className="text-base p-4 rounded-lg flex gap-[6.51px] cursor-pointer"
                 onClick={() => navigate.push("/ourservices")}
               >
                 All Services
@@ -75,8 +76,8 @@ const RealExperts = () => {
               <Button
                 width=""
                 color=""
-                className="w-[216px] text-base sm:text-sm p-4 rounded-lg border-[0.54px] text-success-100 border-success-100"
                 onClick={() => navigate.push("/contact")}
+                className="w-[216px] text-base sm:text-sm p-4 rounded-lg border-[0.54px] text-success-100 border-success-100 cursor-pointer"
               >
                 Contact us
               </Button>
