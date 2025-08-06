@@ -21,7 +21,7 @@ const WhoWeAre = () => {
             <Image
               src="/images/whoweareimg.png"
               alt="who we are image"
-              className={`w-full h-full object-cover rounded-2xl lg:rounded-[100px] ${
+              className={`w-full h-full object-cover rounded-[50px]  lg:rounded-[100px] ${
                 inView ? "animate__animated animate__fadeInDown" : "opacity-0"
               } `}
               width={520}
