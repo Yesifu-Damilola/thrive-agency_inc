@@ -113,7 +113,7 @@ const Footer = () => {
                   <Linkedin className="w-10 h-10  p-2 text-success-500" />
                 </Link>
                 <Link
-                  href="#"
+                  href="https://x.com/_thriveagency"
                   className="border rounded-full border-success-500"
                 >
                   <Twitter className="w-10 h-10  p-2 text-success-500" />
@@ -125,7 +125,7 @@ const Footer = () => {
                   <Tiktok className="w-10 h-10 text-success-500" />
                 </Link>
                 <Link
-                  href="#"
+                  href="https://www.youtube.com/@thriveagency1"
                   className="hidden md:block border rounded-full border-success-500"
                 >
                   <Youtube className="w-10 h-10  p-2 text-success-500" />
