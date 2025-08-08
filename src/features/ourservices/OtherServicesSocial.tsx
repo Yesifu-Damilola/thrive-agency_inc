@@ -23,9 +23,9 @@ export const OtherServicesSocial = () => {
           </div>
 
           {/* Carousel Container */}
-          <div className="w-full overflow-hidden p-2 ">
+          <div className="w-full overflow-hidden p-2">
             <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 space-y-5">
-              {OtherServiceItem.map((service) => (
+              {OtherServiceItem?.slice(0, 8).map((service) => (
                 <div
                   key={service.id}
                   className="transition-all duration-900 hover:scale-105 hover:shadow-none"
