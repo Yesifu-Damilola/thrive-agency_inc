@@ -48,7 +48,7 @@ export const TakeYourBusiness = () => {
               </Fade>
               <Fade direction={"up"}>
                 <Image
-                  src="/images/nextlevel.png"
+                  src="/images/groupdiscussion.png"
                   alt="Next Level"
                   className="w-full h-auto"
                   width={530}

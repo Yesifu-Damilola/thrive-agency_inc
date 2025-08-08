@@ -6,23 +6,23 @@ export interface TeamMember {
 
 export const teamMembers: TeamMember[] = [
   {
-    name: "Faith Oladurotolu",
-    role: "SEO Specialist",
+    name: "Ishola Idris Olakunmi",
+    role: "SEO Optimization",
     img: "/images/seoimg.png",
   },
   {
-    name: "James Richard",
-    role: "UI/UX Designer",
+    name: "Afolabi Ayobami",
+    role: "Content Writer",
     img: "/images/uiuximg.png",
   },
   {
-    name: "Faith Oladurotolu",
-    role: "Content Writer",
+    name: "Adeniyi Abdullah Omolaja",
+    role: "Graphics Designer",
     img: "/images/contentwriterimg.png",
   },
   {
-    name: "Faith Oladurotolu",
-    role: "Graphics Designer",
+    name: "Alao Ibrahim",
+    role: "Shopify and website designer",
     img: "/images/graphicsdesignerimg.png",
   },
 ];

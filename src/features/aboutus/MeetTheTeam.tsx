@@ -73,12 +73,12 @@ export const MeetTheTeam = () => {
                 height={260}
                 className="lg:w-[200px] lg:h-[155px] w-[160px] h-[110px] absolute lg:bottom-0 bottom-5 lg:left-6 left-0 pb-2"
               />
-              <div className="w-full h-[80px] sm:h-[95px] rounded-2xl rounded-bl-full rounded-br-full border-t p-4  space-y-1 sm:space-y-2 bg-success-300 border-success-500 absolute bottom-0 text-center">
+              <div className="w-full h-[80px] sm:h-[95px] rounded-2xl rounded-bl-full rounded-br-full border-t p-4 space-y-1 sm:space-y-2 bg-success-300 border-success-500 absolute bottom-0 text-center">
                 <h4 className="font-bold text-lg sm:text-xl leading-[120%] text-white">
-                  Faith Oladurotolu
+                  Founder and CEO
                 </h4>
                 <h3 className="font-normal text-base sm:text-xl leading-[160%] text-white">
-                  CEO ThriveAgency
+                  ThriveAgency
                 </h3>
               </div>
             </div>
@@ -138,10 +138,10 @@ export const MeetTheTeam = () => {
           />
           <div className="w-full rounded-2xl rounded-bl-full rounded-br-full border-t p-2 sm:p-5 space-y-1 sm:space-y-2 bg-success-300 border-success-500 absolute bottom-0 text-center">
             <h4 className="font-bold text-lg sm:text-xl leading-[120%] text-white">
-              Tobiloba Oladimeji
+              Lawal Ismail
             </h4>
             <h3 className="font-normal text-base sm:text-xl leading-[160%] text-white">
-              Digital Marketing
+              Social Media Marketer and Management
             </h3>
           </div>
         </div>
