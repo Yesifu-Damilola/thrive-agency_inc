@@ -28,7 +28,7 @@ export const OtherServicesSocial = () => {
               {OtherServiceItem.map((service) => (
                 <div
                   key={service.id}
-                  className="transition-all duration-900 hover:scale-105 hover:shadow-none"
+                  className="w-full transition-all duration-900 hover:scale-105 hover:shadow-none"
                 >
                   <OtherServiceCard
                     image={service.image}

@@ -16,7 +16,7 @@ import { Star } from "lucide-react";
 
 const Home = () => {
   return (
-    <div>
+    <main>
       <RealExperts />
       <OurServices />
       <WhoWeAre />
@@ -27,7 +27,7 @@ const Home = () => {
       <FrequentlyAskedQuestions faqItems={FaqItems} />
       <TestimonialsHome testimonials={TestimonialsData} StarComponent={Star} />
       <AdvertSubSection />
-    </div>
+    </main>
   );
 };
 
