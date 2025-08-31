@@ -125,7 +125,7 @@ export const MeetTheTeam = () => {
           <Image
             src="/images/digitalmarketing.png"
             alt="Digital Marketing"
-            className="w-full h-full object-contain "
+            className="lg:h-[360] lg:w-[350px] w-full h-[340px] lg:object-cover lg:ml-12 object-contain "
             width={520}
             height={453}
           />
