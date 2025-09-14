@@ -94,7 +94,10 @@ const RealExperts = () => {
               </div>
             </div>
             <div className="flex gap-3 md:hidden">
-              <Button className="text-base p-4 rounded-lg flex gap-[6.51px]">
+              <Button
+                onClick={() => navigate.push("/ourservices")}
+                className="text-base p-4 rounded-lg flex gap-[6.51px]"
+              >
                 All Services
                 <ArrowRight className="w-5 h-5" />
               </Button>
@@ -102,7 +105,7 @@ const RealExperts = () => {
                 width=""
                 color=""
                 className="w-[216px] text-base p-4 rounded-lg border-[0.54px] text-success-100 border-success-100"
-                onClick={() => navigate.push("/Contact")}
+                onClick={() => navigate.push("/contact")}
               >
                 Contact us
               </Button>
