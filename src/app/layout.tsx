@@ -17,9 +17,12 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+
 export const metadata: Metadata = {
-  title: "Thrive-Agency",
-  description: "Thrive-Agency - Your Partner in Growth",
+  metadataBase: new URL(siteUrl),
+  title: "Thrives-Agency",
+  description: "Thrives-Agency - Your Partner in Growth",
   robots: {
     index: true,
     follow: true,
@@ -28,18 +31,24 @@ export const metadata: Metadata = {
     icon: "/favicon.ico",
   },
   openGraph: {
-    title: "Thrive-Agency",
-    description: "Thrive-Agency - Your Partner in Growth",
+    title: "Thrives-Agency",
+    description: "Thrives-Agency - Your Partner in Growth",
     type: "website",
-    url: "https://thrive-agency.com",
+    url: siteUrl,
     images: [
       {
-        url: "/images/thrivelogo.png",
+        url: "/images/logo.png", // resolved as absolute from metadataBase
         width: 1200,
         height: 630,
-        alt: "Thrive-Agency Logo",
+        alt: "Thrives-Agency Logo",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Thrives-Agency",
+    description: "Thrives-Agency - Your Partner in Growth",
+    images: ["/images/logo.png"],
   },
 };
 

@@ -11,12 +11,9 @@ import "animate.css";
 import useScrollAnimation from "@/hooks/useScrollAnimation";
 import AnimatedClients from "./AnimatedClients";
 
-import { useEffect, useState } from "react";
-import { SkeletonLoader } from "@/components/reusable/SkeletonLoader";
 import { useRouter } from "next/navigation";
 
 const RealExperts = () => {
-  const [loading, setLoading] = useState(true);
   const navigate = useRouter();
   const { ref, inView } = useScrollAnimation();
   const text = useTypewriter(
@@ -26,19 +23,12 @@ const RealExperts = () => {
     1500
   );
 
-  useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 1000);
-    return () => clearTimeout(timer);
-  }, []);
-
-  if (loading) return <SkeletonLoader />;
-
   return (
     <section
       ref={ref}
       className="w-full bg-[url('/images/homebg.png')] bg-cover bg-no-repeat bg-center"
     >
-      <div className="wrapper space-y-10 py-5 ">
+      <div className="wrapper space-y-10 py-5 overflow-hidden">
         <div className="lg:w-[1164px] w-full pt-28 lg:pt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-[44px] items-center justify-center mx-auto lg:h-[912px]">
           <div className="lg:w-[596px] w-full space-y-5 lg:space-y-[28px]">
             <div className="w-full space-y-5 lg:space-y-8">
